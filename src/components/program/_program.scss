@@ -1,0 +1,14 @@
+.features-list {
+    display: flex;
+    flex-direction: column;
+    .program-feature {
+        display: flex;
+        margin-bottom: 10px;
+        .feature-info {
+            display: flex;
+            flex-direction: column;
+            margin-left: 18px;
+        }
+    }
+    
+}
