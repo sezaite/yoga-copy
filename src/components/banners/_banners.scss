@@ -1,0 +1,19 @@
+.top-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $blue;
+    padding: 18px 15px;
+    img {
+
+    }
+    p {
+        @extend .banner-text;
+        margin-left: 18px;
+        span {
+            @extend .banner-text;
+            font-weight: 600;
+        }
+    }
+    
+}

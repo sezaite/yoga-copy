@@ -2,6 +2,10 @@
     font-weight: 800;
     font-size: 40px;
     line-height: 56px;
+    @media (max-width: 500px){
+        font-size: 28px;
+        line-height: 36px;
+    }
 }
 
 .title-lg {
@@ -39,7 +43,14 @@
     line-height: 20px;
 }
 
+
 .text-xs {
     font-size: 12px;
-line-height: 18px;
+    line-height: 18px;
+}
+
+.banner-text {
+    font-size: 15px;
+    line-height: 20px;
+    color: $white;
 }
