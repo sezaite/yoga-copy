@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, span {
     font-family: $sf-text;
-    &.bold {
+    &.bold, &.title-md {
         font-family: $sf-display;
         font-weight: 700;
     }
