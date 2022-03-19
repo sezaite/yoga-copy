@@ -2,15 +2,27 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 48px;
-    @media (max-width:500px){
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    @include mobile{
         align-items: flex-start;
-        margin-top: 16px;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
     }
     p {
         margin-bottom: 8px;
         span {
             font-weight: 700;
+        }
+    }
+}
+
+.section-title {
+    margin-bottom: 3rem;
+    &.mb-6 {
+        margin-bottom: 6rem;
+        @include mobile {
+            margin-bottom: 3rem;
         }
     }
 }

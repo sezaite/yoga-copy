@@ -1,0 +1,89 @@
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+.text-center {
+    text-align: center;
+}
+
+.orange {
+    color: $orange;
+}
+
+.blue {
+    color: $blue;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-4 {
+    gap: 4rem;
+}
+
+.my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.my-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.mb-6 {
+    margin-bottom: 6rem;
+}
+
+.span-text {
+    margin-left: 0.5rem;
+}
+
+.mobile-only {
+    display: none;
+    @include mobile {
+        display: block;
+    }
+}
+
+.reverse-order-md {
+    @include tablet {
+        & > div:nth-child(2) {
+            order: 1
+        }
+        & > div:first-child {
+            order: 2
+        }
+    }
+}

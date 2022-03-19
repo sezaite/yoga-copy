@@ -19,10 +19,41 @@ h1, h2, h3, h4, h5, h6 {
     font-family: $sf-display;
 }
 
-p {
+p, span {
     font-family: $sf-text;
+    &.bold {
+        font-family: $sf-display;
+        font-weight: 700;
+    }
 }
 
 html {
     font-size: 8px;
+    height: 100%;
+    overflow-x: hidden;
+}
+body {
+    height: 100%;
+    overflow-x: hidden;
+    line-height:1;
+}
+
+a {
+    font-size: 12px;
+    line-height: 18px;
+    color: $blue;
+    transition: $transition-all;
+    text-decoration: none;
+    &:hover {
+        color: inherit;
+    }
+}
+
+.App {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+img {
+    max-width: 100%;
 }

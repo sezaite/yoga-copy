@@ -1,14 +1,22 @@
+
 @import "./scss/variables";
 @import "./scss/mixins";
-@import "./scss/reset";
 @import "./scss/global";
 @import "./scss/layout";
 @import "./scss/typography";
 @import "./scss/fonts";
+@import "./scss/utilities";
+
+@import "./scss/custom-inputs";
 
 
 @import "./components/banners/banners";
 @import "./components/nav/nav";
 @import "./components/headers/headers";
-@import "./components/program/program"
+@import "./components/program/program";
+@import "./components/plans/plans";
+@import "./components/buttons/buttons";
+@import "./components/reviews/reviews";
+@import "./components/duk/duk";
+@import "./components/appFeatures/app-features";
 

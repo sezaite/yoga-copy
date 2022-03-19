@@ -6,6 +6,7 @@ import icon from "../../img/icon.svg";
 import shoe from "../../img/shoe.svg";
 import plan from "../../img/plan.svg";
 import smartwatch from "../../img/smartwatch.svg"
+import SectionHeader from "../headers/SectionHeader";
 
 
 const ProgramsFeatureList = () => {
@@ -18,12 +19,15 @@ const ProgramsFeatureList = () => {
       {img: bookcheck, title: "A personalized yoga program", about: "Completely safe and focused on your key goals"},
        ];
     return ( 
-    <div className="features-list">
-   {features.map((feature, index) => (
-                <ProgramFeature key={index} img={feature.img} title={feature.title} description={feature.about}/>
-            ))
-            }
-    </div>
+        <>
+        <SectionHeader text="What's in my program?" textClass="mb-6"/>
+            <div className="features-list">
+        {features.map((feature, index) => (
+                        <ProgramFeature key={index} img={feature.img} title={feature.title} description={feature.about}/>
+                    ))
+                    }
+            </div>
+    </>
      );
 }
  

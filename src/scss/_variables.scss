@@ -14,9 +14,17 @@ $blue: #90CAF9;
 
 //sheer-colors
 
-$blak-sheer: rgba(0,0,0,0.08);
+$black-sheer: rgba(0,0,0,0.08);
 
 //borders:
-
-$input-border: 2px solid $blak-sheer;
+$accordion-border: 1px solid $black-sheer;
+$input-border: 2px solid $black-sheer;
 $input-selected: 2px solid $orange;
+
+//radius
+$card-radius: 16px;
+
+//transitions 
+
+$transition-all: all 0.2s ease-in-out;
+$transition-all-slow: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);

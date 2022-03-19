@@ -1,9 +1,11 @@
 .features-list {
     display: flex;
     flex-direction: column;
+    
     .program-feature {
         display: flex;
         margin-bottom: 10px;
+        align-items: flex-start;
         .feature-info {
             display: flex;
             flex-direction: column;

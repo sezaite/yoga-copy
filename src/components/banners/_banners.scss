@@ -4,6 +4,9 @@
     align-items: center;
     background-color: $blue;
     padding: 18px 15px;
+    @include mobile {
+        justify-content: flex-start
+    }
     img {
 
     }

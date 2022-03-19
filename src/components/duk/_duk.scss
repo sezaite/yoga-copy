@@ -1,0 +1,43 @@
+.faq-section {
+    .title-md {
+        margin-bottom: 0;
+        text-align: center;
+        @include mobile {
+            text-align: start;
+        }
+    }
+}
+
+.accordion-card {
+    padding: 2rem;
+    border-radius: 12px;
+    border: $accordion-border;
+
+    .accordion-header {
+
+    }
+
+    img {
+        transition: $transition-all;
+        transform: rotate(0);   
+    }
+    .accordion-body {
+        max-height: 500px;
+        transition: $transition-all-slow;
+        overflow: hidden;
+        // padding-bottom: 2rem;
+        // padding: 2rem 0;
+        p {
+            padding-top: 2rem;
+        }
+    }
+    &.collapsed {
+        .accordion-body {
+            max-height: 0;
+            padding-bottom: 0;
+        }
+        img {
+            transform: rotate(180deg);
+        }
+    }
+}
