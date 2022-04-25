@@ -1,4 +1,6 @@
-const HeaderMain = () => {
+import React from "react";
+
+const HeaderMain: React.FC = () => {
     return ( 
        <div className="container-md">
           <div className="row">

@@ -1,4 +1,12 @@
-const SectionHeader = ({text, highlightedText, textClass}) => {
+import React from "react";
+
+interface SectionHeaderProps {
+    text: string;
+    highlightedText?: string; 
+    textClass?: string;
+}
+
+const SectionHeader = ({text, highlightedText, textClass}: SectionHeaderProps) => {
     return ( 
             <h2 className={`title-md section-title ${textClass}`}>
                 {text}

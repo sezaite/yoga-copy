@@ -1,4 +1,18 @@
-const PlanCard = ({ id, name, duration, label, price, oldPrice, billing }) => {
+import React from "react";
+
+type StringOrBoolean = string | boolean;
+
+interface ReactCardProps {
+    id: number; 
+    name: string;
+    duration: string;
+    label: StringOrBoolean;
+    price: string;
+    oldPrice: StringOrBoolean;
+    billing: string;
+}
+
+const PlanCard = ({ id, name, duration, label, price, oldPrice, billing }: ReactCardProps) => {
     return (
         <div className="custom-radio-wrap plan-card d-flex align-items-center justify-content-between">
                 <input type="radio" name={"plan-" + name} id={"plan-" + id + "-" + name}></input>

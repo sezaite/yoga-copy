@@ -1,9 +1,15 @@
+import React from "react";
 import PlanCard from "./PlanCard";
 import OrangeBtn from "../buttons/OrangeBtn";
 import Terms from "../Terms";
 import SectionHeader from "../headers/SectionHeader";
 
-const Plans = ({name}) => {
+interface NameProp {
+    name: string
+}
+
+const Plans = ({name}: NameProp) => {
+
     const plans = [
         {duration: "6 months", label: "50% discount", price: "$6.99", oldPrice: "$9.99", billing: "every 7 months"},
         {duration: "6 months", label: false, price: "$6.99", oldPrice: "$9.99", billing: "every 4 months"},

@@ -1,8 +1,17 @@
 import { useState } from 'react';
+import React from 'react';
 import arrow from "../../img/md-icon.svg";
 
-const DukAccordionQuestion = ({question, answer}) => {
-    const [isOpen, setIsOpen] = useState(false);
+interface DukAccordionQuestionProps {
+    question: string;
+    answer: string;
+} 
+
+//QUESTION: img import doesn't work
+//QUESTION: React.FC issue (OrangeBtn components vs this one)
+
+const DukAccordionQuestion = ({question, answer}: DukAccordionQuestionProps) => {
+    const [isOpen, setIsOpen] = useState<boolean>(false);
     return ( 
         <div className={`accordion-card ${isOpen? "open" : "collapsed"}`} onClick={()=>setIsOpen(!isOpen)}>
             <div className="d-flex justify-content-between accordion-header">

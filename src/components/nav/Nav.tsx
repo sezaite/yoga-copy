@@ -1,4 +1,6 @@
+import React from "react";
 import logo from "../../img/Logo.svg";
+
 
 const Nav = () => {
     return ( 
