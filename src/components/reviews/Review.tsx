@@ -1,6 +1,17 @@
+import Module from "module";
+import React from "react";
 import star from "../../img/star.svg"
 
-const Review = ({stars, review, name, age, location, img}) => {
+interface ReviewsProps {
+    stars: number, 
+    name: string,
+    review: string,
+    age: string,
+    location: string, 
+    img: string,
+}
+
+const Review = ({stars, review, name, age, location, img}: ReviewsProps) => {
     let starsHTML = [];
     for (let i = 0; i < stars; i++) {
         starsHTML.push(<img src={star} key={i} alt="star icon" className="star"/>);

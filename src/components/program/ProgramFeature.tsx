@@ -1,4 +1,12 @@
-const ProgramFeature = ({img, title, description}) => {
+import React from "react";
+
+interface ProgramFeatureType {
+    img: string;
+    title: string;
+    description: string;
+}
+
+const ProgramFeature = ({img, title, description}: ProgramFeatureType) => {
     return ( 
         <div className="program-feature">
             <img src={img} alt="feature icon" />

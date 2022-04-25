@@ -1,3 +1,4 @@
+import React from "react";
 import ProgramFeature from "./ProgramFeature"
 import exercise from "../../img/exercise.svg";
 import diet from "../../img/diet.svg";

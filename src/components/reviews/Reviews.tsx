@@ -1,11 +1,11 @@
+import React from "react";
 import pic1 from "../../img/image1.png"
 import pic2 from "../../img/image2.png"
 import pic3 from "../../img/image3.png"
 import Review from "./Review";
 import SectionHeader from "../headers/SectionHeader";
 
-
-const Reviews = () => {
+const Reviews: React.FC = () => {
     const reviews = [
         {img: pic1, stars: 5, name: "Emily", age: "28", location: "Delaware, NJ", review:"I have been using this program for 3 months now and It helped me to lose 16lbs, taught me how to breathe properly and now I look forward to my workout. Great challenges for different problem zones. Definitely recommend to anyone that wants to lose weight and feel better without long hour at the gym or exhausting workouts."},
         {img: pic2, stars: 5, name: "Kylie", age: "40", location: "Los Angeles", review: "I will be very straightforward - I hate sports and working out. Positive Yoga put my physical activity to the next level. I started to enjoy my morning yoga routines where I get my dose of cardio, resistance, and stretching in one place. I could barely hold a plank at the beginning. Now I’m doing various yoga poses that looked impossible at first. My body shape improved a lot and I am very motivated by both: results and the feeling of progress."},
@@ -16,7 +16,7 @@ const Reviews = () => {
        
             {
             reviews.map((item, index) => (
-                    <Review key={index} img={item.img} key={index} stars={item.stars} name={ item.name } age={item.age} location={item.location} review={item.review} />
+                    <Review key={index} img={item.img} stars={item.stars} name={ item.name } age={item.age} location={item.location} review={item.review} />
         ))
         }
         </>

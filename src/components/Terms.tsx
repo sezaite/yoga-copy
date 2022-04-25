@@ -1,3 +1,4 @@
+import React from "react";
 import guarantee from "../img/guarantee.svg"
 
 const Terms = () => {

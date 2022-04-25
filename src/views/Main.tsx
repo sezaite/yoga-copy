@@ -1,3 +1,4 @@
+import React from 'react';
 import TopBanner from '../components/banners/TopBanner';
 import Nav from '../components/nav/Nav';
 import HeaderMain from '../components/headers/HeaderMain';
