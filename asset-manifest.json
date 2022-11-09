@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/yoga-app/static/css/main.1786df98.css",
+    "main.js": "/yoga-app/static/js/main.0e54f353.js",
+    "static/media/sf-pro-text-reg.ttf": "/yoga-app/static/media/sf-pro-text-reg.90da7ab18293ca42e335.ttf",
+    "static/media/sf-pro-display-medium.OTF": "/yoga-app/static/media/sf-pro-display-medium.b85d841dacb040b84951.OTF",
+    "static/media/sf-pro-display-bold.OTF": "/yoga-app/static/media/sf-pro-display-bold.b1f4d2c69fa808ebca12.OTF",
+    "static/media/sf-pro-display-regular.OTF": "/yoga-app/static/media/sf-pro-display-regular.d1f5e6e16dd4f75c3950.OTF",
+    "static/media/phone2.png": "/yoga-app/static/media/phone2.08369be52bccbfb45bc5.png",
+    "static/media/image1.png": "/yoga-app/static/media/image1.f156585a8ec63d059fec.png",
+    "static/media/image2.png": "/yoga-app/static/media/image2.09746f9b094915fb35d7.png",
+    "static/media/image3.png": "/yoga-app/static/media/image3.d2b91ca41051ffb6a095.png",
+    "static/media/guarantee.svg": "/yoga-app/static/media/guarantee.9b1df79cf83a5db8e57bf8eba0cbfab6.svg",
+    "static/media/phone.png": "/yoga-app/static/media/phone.a7815b17a5a43f3ab739.png",
+    "static/media/Logo.svg": "/yoga-app/static/media/Logo.56f0ba54e477dc5b1296aaf6e0e44a8b.svg",
+    "static/media/diet.svg": "/yoga-app/static/media/diet.ede820f74be4949ce08b6437c9cff365.svg",
+    "static/media/shoe.svg": "/yoga-app/static/media/shoe.3e8b685d93a1fdd79a8a68976a188ad4.svg",
+    "static/media/exercise.svg": "/yoga-app/static/media/exercise.4c515198e8a4f61b175899453383191c.svg",
+    "static/media/plan.svg": "/yoga-app/static/media/plan.811513c9e29409757aa9a77e4fe80cbe.svg",
+    "static/media/smartwatch.svg": "/yoga-app/static/media/smartwatch.6637210c9330d9c9fbeaa0a470bbbbed.svg",
+    "static/media/bookcheck.svg": "/yoga-app/static/media/bookcheck.c097169b2ceae4ba0399c0fe589f6c64.svg",
+    "static/media/icon.svg": "/yoga-app/static/media/icon.363c1bfd2324181fa03eda220ed8aa05.svg",
+    "index.html": "/yoga-app/index.html",
+    "static/media/tag.svg": "/yoga-app/static/media/tag.f0eec077e4746b640759c2eb1a1bce99.svg",
+    "static/media/Vector.svg": "/yoga-app/static/media/Vector.f691418a09cffd0cfddcebf2b18673b0.svg",
+    "static/media/star.svg": "/yoga-app/static/media/star.81409ab6e778cb88baf714008c127717.svg",
+    "static/media/md-icon.svg": "/yoga-app/static/media/md-icon.d58f44ae7b41e342ebc2151e4c0f6fc3.svg",
+    "static/media/accent.svg": "/yoga-app/static/media/accent.fc50129fc08452af3c70.svg",
+    "main.1786df98.css.map": "/yoga-app/static/css/main.1786df98.css.map",
+    "main.0e54f353.js.map": "/yoga-app/static/js/main.0e54f353.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1786df98.css",
+    "static/js/main.0e54f353.js"
+  ]
+}
